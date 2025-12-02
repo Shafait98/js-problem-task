@@ -12,4 +12,12 @@ function inchTofeet(inch)
 const samantasHeight = inchTofeet(62);
 console.log(samantasHeight);
 
-//
+//mile to km
+
+function mileTokilo(mile)
+{
+  result = mile * 1.60934;
+  return result;
+}
+const show = mileTokilo(5);
+console.log(result, "KM"); 
