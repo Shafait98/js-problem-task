@@ -4,7 +4,7 @@ function leapYear(year)
     {
         return true;
     }
-    else if(year % 100 === 0 && year % 400 ===0)
+    else if(year % 100 === 0 && year % 400 === 0)
     {
         return true
     }

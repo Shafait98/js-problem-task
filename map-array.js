@@ -1,4 +1,4 @@
-// "1","2","3","4" into 1,2,3,4
+// Turn this "1","2","3","4" into 1,2,3,4
 
 function convert()
 {
