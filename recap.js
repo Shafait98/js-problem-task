@@ -2,21 +2,21 @@
 
 function oddAverage(numbers)
 {
-    let oddNum = [];
-    let sum = 0;
-    let avg;
-    let OddNumLength;
+    let oddNum = [];  // taking out the odd numbers in this array
+    let sum = 0; // for calculating the odd numbers sum we initialize the value 0
+    let avg;  // for calculating average
+    let OddNumLength; 
 
-    for(num of numbers)
+    for(num of numbers)       // we traverse the input array & pick odd number as per condition and push those into oddNum array
     {
         if(num % 2 === 1)
         {
             oddNum.push(num)
         }
     }
-    OddNumLength = oddNum.length;
-
-    for(num of oddNum)
+    OddNumLength = oddNum.length; // new array length
+ 
+    for(num of oddNum)       // calculating the sum of oddNum array
     {
         sum = sum + num;
     }
