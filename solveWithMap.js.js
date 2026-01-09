@@ -15,3 +15,12 @@ let users = [ {name: "farhan", age:27, Occupation: "Dev"},
 const name = users.map(user => user.name);
 
 console.log(name);
+
+
+//**  we want to add vat on customer purchase */
+
+ const prices = [ 100,200,400,620]
+
+ const withVat = prices.map(p => p * 1.25);
+
+ console.log(withVat);
