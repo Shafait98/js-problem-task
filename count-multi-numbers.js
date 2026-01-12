@@ -6,15 +6,14 @@
 
 // output: 2
 
-function countRepatedNum(num)
+function countRepatedNum(numbers,target)
 {
-    const numbers = [5,6,11,12,98,5 ]
 
-    count = 0;
+   let count = 0;
 
-    for(c of numbers)
+    for(num of numbers)
     {
-        if(c === num)
+        if(num === target)
         {
             count++;
         }
@@ -23,5 +22,5 @@ function countRepatedNum(num)
     return count;
 }
 
-let find = countRepatedNum(11);
+let find = countRepatedNum([11,12,2,4,8,44,14,11,12,1,2,1,3,5,8],8);
 console.log(find);
