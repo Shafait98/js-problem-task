@@ -2,7 +2,7 @@
 
 function convert(cel)
 {
-    far = (cel * 9/5) + 32;
+   let far = (cel * 9/5) + 32;
     return far
 }
 
